@@ -10,8 +10,8 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <link href="{{asset('frontend/images/fav.png')}}" rel="shortcut icon" type="image/x-icon" />
-    <title>Natto | Home </title>
+    <link href="{{asset('frontend/images/logo-title.png')}}" rel="shortcut icon" type="image/x-icon" />
+    <title>Explore Asian Food | Home </title>
 
     @yield('css')
 </head>
@@ -25,7 +25,9 @@
                 <div class="col-md-2 col-sm-12 col-xs-12">
                     <div class="menu-left text-center text-md-left">
                         <div class="logo-box">
-                            <a href="{{url('/')}}"><img src="{{asset('frontend/images/logo.svg')}}" alt=""></a>
+                            <a href="{{url('/')}}">
+                                <img src="{{asset('frontend/images/logo.png')}}" alt="">
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -100,7 +102,7 @@
                                     </div>
                                 </li>
                                 <li class="partner-btn">
-                                    <a href="#" class="b-btn btn-link">Become a Partner</a>
+                                    <a href="{{route('partner_with_us')}}" class="b-btn btn-link">Become a Partner</a>
                                 </li>
                             </ul>
                         </div>

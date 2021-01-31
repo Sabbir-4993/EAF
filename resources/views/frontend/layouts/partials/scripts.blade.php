@@ -1,3 +1,5 @@
+{{--@include('frontend.pages.add_restaurant')--}}
+
 @section('css')
     <link href="{{asset('frontend/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
     <link href="{{asset('frontend/css/style.css')}}" rel="stylesheet">
@@ -9,6 +11,8 @@
     <link href="{{asset('frontend/vendor/OwlCarousel/assets/owl.theme.default.min.css')}}" rel="stylesheet">
 
     <link href="{{asset('frontend/vendor/fontawesome-free/css/all.min.css')}}" rel="stylesheet" type="text/css">
+    <link href="{{asset('frontend/css/bootstrap-select.css')}}" rel="stylesheet">
+{{--    @yield('new_css')--}}
 @endsection
 
 @section('js')
@@ -19,4 +23,6 @@
 
     <script src="{{asset('frontend/vendor/OwlCarousel/owl.carousel.js')}}"></script>
     <script src="{{asset('frontend/js/owlslider.js')}}"></script>
+    <script src="{{asset('frontend/js/bootstrap-select.js')}}"></script>
+{{--    @yield('new_js')--}}
 @endsection

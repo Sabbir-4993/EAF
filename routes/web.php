@@ -13,14 +13,35 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () { return view('frontend.pages.index'); });
-Route::get('/recipes', function () { return view('frontend.pages.recipes'); });
-Route::get('/recipes/recipe_details', function () { return view('frontend.pages.recipe_details'); });
-Route::get('/how-to-order', function () { return view('frontend.pages.howtoorder'); });
-Route::get('/partners', function () { return view('frontend.pages.partners'); });
-Route::get('/about', function () { return view('frontend.pages.about'); });
-Route::get('/contact', function () { return view('frontend.pages.contact'); });
+Route::get('/', 'FrontPagesController@index')->name('index');
+Route::get('/about', 'FrontPagesController@about')->name('about');
+Route::get('/contact', 'FrontPagesController@contact')->name('contact');
+Route::get('/recipes', 'FrontPagesController@recipes')->name('recipes');
+Route::get('/recipes/recipe_details', 'FrontPagesController@recipe_details')->name('recipe_details');
+Route::get('/how-to-order', 'FrontPagesController@howtoorder')->name('howtoorder');
+Route::get('/partners', 'FrontPagesController@partners')->name('partners');
+Route::get('/partner-with-us', 'FrontPagesController@partner_with_us')->name('partner_with_us');
+Route::get('/partner-with-us/add_restaurant', 'FrontPagesController@add_restaurant')->name('add_restaurant');
+
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+//Route::get('/home', 'HomeController@index')->name('home');
+
+Route::group([ 'as'=>'admin.', 'prefix'=>'admin', 'namespace' => 'Admin', 'middleware' => ['auth','admin'] ],
+    function(){
+        Route::get('dashboard', 'DashboardController@index')->name('dashboard');
+
+    });
+
+Route::group([ 'as'=>'user.', 'prefix'=>'user', 'namespace' => 'User', 'middleware' => ['auth','user'] ],
+    function(){
+        Route::get('dashboard', 'DashboardController@dashboard')->name('dashboard');
+//        Route::get('/', 'DashboardController@index')->name('index');
+//        Route::get('/about', 'DashboardController@about')->name('about');
+//        Route::get('/contact', 'DashboardController@contact')->name('contact');
+//        Route::get('/recipes', 'DashboardController@recipes')->name('recipes');
+//        Route::get('/recipes/recipe_details', 'DashboardController@recipe_details')->name('recipe_details');
+//        Route::get('/how-to-order', 'DashboardController@howtoorder')->name('howtoorder');
+//        Route::get('/partners', 'DashboardController@partners')->name('partners');
+    });

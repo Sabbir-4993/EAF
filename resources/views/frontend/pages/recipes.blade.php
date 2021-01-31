@@ -141,7 +141,7 @@
                             </div>
                             <div class="bottom-items">
                                 <div class="video-title">
-                                    <a href="{{url('recipes/recipe_details')}}"><h4>Learn to cook easy egg gravey dishes</h4></a><br>
+                                    <a href="{{route('recipe_details')}}"><h4>Learn to cook easy egg gravey dishes</h4></a><br>
                                     <div class="rating">
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
@@ -156,7 +156,7 @@
                                 </div>
                             </div>
                             <div class="middle">
-                                <a href="{{url('recipes/recipe_details')}}">
+                                <a href="{{route('recipe_details')}}">
                                     <div class="play-btn"><i class="fas fa-play"></i></div>
                                 </a>
                             </div>
@@ -248,14 +248,14 @@
                                 </div>
                             </div>
                             <div class="middle">
-                                <a href="{{url('recipes/recipe_details')}}">
+                                <a href="{{route('recipe_details')}}">
                                     <div class="play-btn"><i class="fas fa-play"></i></div>
                                 </a>
                             </div>
                         </div>
                         <div class="video-bottom">
                             <div class="bottom-text">
-                                <a href="{{url('recipes/recipe_details')}}"><h4>Learn to cook easy vegetarian noodles</h4></a>
+                                <a href="{{route('recipe_details')}}"><h4>Learn to cook easy vegetarian noodles</h4></a>
                                 <div class="v-published">Published 25 March 2019</div>
                                 <div class="star">
                                     <i class="fas fa-star"></i>
@@ -286,14 +286,14 @@
                                 </div>
                             </div>
                             <div class="middle">
-                                <a href="{{url('recipes/recipe_details')}}">
+                                <a href="{{route('recipe_details')}}">
                                     <div class="play-btn"><i class="fas fa-play"></i></div>
                                 </a>
                             </div>
                         </div>
                         <div class="video-bottom">
                             <div class="bottom-text">
-                                <a href="{{url('recipes/recipe_details')}}"><h4>Learn to cook easy tandoori chicken</h4></a>
+                                <a href="{{route('recipe_details')}}"><h4>Learn to cook easy tandoori chicken</h4></a>
                                 <div class="v-published">Published 20 March 2019</div>
                                 <div class="star">
                                     <i class="fas fa-star"></i>
@@ -324,14 +324,14 @@
                                 </div>
                             </div>
                             <div class="middle">
-                                <a href="{{url('recipes/recipe_details')}}">
+                                <a href="{{route('recipe_details')}}">
                                     <div class="play-btn"><i class="fas fa-play"></i></div>
                                 </a>
                             </div>
                         </div>
                         <div class="video-bottom">
                             <div class="bottom-text">
-                                <a href="{{url('recipes/recipe_details')}}"><h4>Learn to cook easy vegetarian Burgur</h4></a>
+                                <a href="{{route('recipe_details')}}"><h4>Learn to cook easy vegetarian Burgur</h4></a>
                                 <div class="v-published">Published 10 March 2019</div>
                                 <div class="star">
                                     <i class="fas fa-star"></i>
@@ -362,14 +362,14 @@
                                 </div>
                             </div>
                             <div class="middle">
-                                <a href="{{url('recipes/recipe_details')}}">
+                                <a href="{{route('recipe_details')}}">
                                     <div class="play-btn"><i class="fas fa-play"></i></div>
                                 </a>
                             </div>
                         </div>
                         <div class="video-bottom">
                             <div class="bottom-text">
-                                <a href="{{url('recipes/recipe_details')}}"><h4>Learn to cook easy non veg Tangdi kabab</h4></a>
+                                <a href="{{route('recipe_details')}}"><h4>Learn to cook easy non veg Tangdi kabab</h4></a>
                                 <div class="v-published">Published 15 June 2019</div>
                                 <div class="star">
                                     <i class="fas fa-star"></i>
@@ -400,14 +400,14 @@
                                 </div>
                             </div>
                             <div class="middle">
-                                <a href="{{url('recipes/recipe_details')}}">
+                                <a href="{{route('recipe_details')}}">
                                     <div class="play-btn"><i class="fas fa-play"></i></div>
                                 </a>
                             </div>
                         </div>
                         <div class="video-bottom">
                             <div class="bottom-text">
-                                <a href="{{url('recipes/recipe_details')}}"><h4>Learn to cook easy italian pasta</h4></a>
+                                <a href="{{route('recipe_details')}}"><h4>Learn to cook easy italian pasta</h4></a>
                                 <div class="v-published">Published 5 March 2019</div>
                                 <div class="star">
                                     <i class="fas fa-star"></i>
@@ -438,14 +438,14 @@
                                 </div>
                             </div>
                             <div class="middle">
-                                <a href="{{url('recipes/recipe_details')}}">
+                                <a href="{{route('recipe_details')}}">
                                     <div class="play-btn"><i class="fas fa-play"></i></div>
                                 </a>
                             </div>
                         </div>
                         <div class="video-bottom">
                             <div class="bottom-text">
-                                <a href="{{url('recipes/recipe_details')}}"><h4>Learn to cook easy street food pani puri</h4></a>
+                                <a href="{{route('recipe_details')}}"><h4>Learn to cook easy street food pani puri</h4></a>
                                 <div class="v-published">Published 21 July 2019</div>
                                 <div class="star">
                                     <i class="fas fa-star"></i>
@@ -476,14 +476,14 @@
                                 </div>
                             </div>
                             <div class="middle">
-                                <a href="{{url('recipes/recipe_details')}}">
+                                <a href="{{route('recipe_details')}}">
                                     <div class="play-btn"><i class="fas fa-play"></i></div>
                                 </a>
                             </div>
                         </div>
                         <div class="video-bottom">
                             <div class="bottom-text">
-                                <a href="{{url('recipes/recipe_details')}}"><h4>Learn to cook potato french fries at home</h4></a>
+                                <a href="{{route('recipe_details')}}"><h4>Learn to cook potato french fries at home</h4></a>
                                 <div class="v-published">Published 28 March 2019</div>
                                 <div class="star">
                                     <i class="fas fa-star"></i>
@@ -514,14 +514,14 @@
                                 </div>
                             </div>
                             <div class="middle">
-                                <a href="{{url('recipes/recipe_details')}}">
+                                <a href="{{route('recipe_details')}}">
                                     <div class="play-btn"><i class="fas fa-play"></i></div>
                                 </a>
                             </div>
                         </div>
                         <div class="video-bottom">
                             <div class="bottom-text">
-                                <a href="{{url('recipes/recipe_details')}}"><h4>Learn to cook easy cheese pizza</h4></a>
+                                <a href="{{route('recipe_details')}}"><h4>Learn to cook easy cheese pizza</h4></a>
                                 <div class="v-published">Published 20 March 2019</div>
                                 <div class="star">
                                     <i class="fas fa-star"></i>
@@ -567,14 +567,14 @@
                                 </div>
                             </div>
                             <div class="middle">
-                                <a href="{{url('recipes/recipe_details')}}">
+                                <a href="{{route('recipe_details')}}">
                                     <div class="play-btn"><i class="fas fa-play"></i></div>
                                 </a>
                             </div>
                         </div>
                         <div class="video-bottom">
                             <div class="bottom-text">
-                                <a href="{{url('recipes/recipe_details')}}"><h4>Learn to cook easy vegetarian noodles</h4></a>
+                                <a href="{{route('recipe_details')}}"><h4>Learn to cook easy vegetarian noodles</h4></a>
                                 <div class="v-published">Published 25 March 2019</div>
                                 <div class="star">
                                     <i class="fas fa-star"></i>
@@ -605,14 +605,14 @@
                                 </div>
                             </div>
                             <div class="middle">
-                                <a href="{{url('recipes/recipe_details')}}">
+                                <a href="{{route('recipe_details')}}">
                                     <div class="play-btn"><i class="fas fa-play"></i></div>
                                 </a>
                             </div>
                         </div>
                         <div class="video-bottom">
                             <div class="bottom-text">
-                                <a href="{{url('recipes/recipe_details')}}"><h4>Learn to cook easy tandoori chicken</h4></a>
+                                <a href="{{route('recipe_details')}}"><h4>Learn to cook easy tandoori chicken</h4></a>
                                 <div class="v-published">Published 20 March 2019</div>
                                 <div class="star">
                                     <i class="fas fa-star"></i>
@@ -643,14 +643,14 @@
                                 </div>
                             </div>
                             <div class="middle">
-                                <a href="{{url('recipes/recipe_details')}}">
+                                <a href="{{route('recipe_details')}}">
                                     <div class="play-btn"><i class="fas fa-play"></i></div>
                                 </a>
                             </div>
                         </div>
                         <div class="video-bottom">
                             <div class="bottom-text">
-                                <a href="{{url('recipes/recipe_details')}}"><h4>Learn to cook easy vegetarian Burgur</h4></a>
+                                <a href="{{route('recipe_details')}}"><h4>Learn to cook easy vegetarian Burgur</h4></a>
                                 <div class="v-published">Published 10 March 2019</div>
                                 <div class="star">
                                     <i class="fas fa-star"></i>
@@ -681,14 +681,14 @@
                                 </div>
                             </div>
                             <div class="middle">
-                                <a href="{{url('recipes/recipe_details')}}">
+                                <a href="{{route('recipe_details')}}">
                                     <div class="play-btn"><i class="fas fa-play"></i></div>
                                 </a>
                             </div>
                         </div>
                         <div class="video-bottom">
                             <div class="bottom-text">
-                                <a href="{{url('recipes/recipe_details')}}"><h4>Learn to cook easy non veg Tangdi kabab</h4></a>
+                                <a href="{{route('recipe_details')}}"><h4>Learn to cook easy non veg Tangdi kabab</h4></a>
                                 <div class="v-published">Published 15 June 2019</div>
                                 <div class="star">
                                     <i class="fas fa-star"></i>
@@ -719,14 +719,14 @@
                                 </div>
                             </div>
                             <div class="middle">
-                                <a href="{{url('recipes/recipe_details')}}">
+                                <a href="{{route('recipe_details')}}">
                                     <div class="play-btn"><i class="fas fa-play"></i></div>
                                 </a>
                             </div>
                         </div>
                         <div class="video-bottom">
                             <div class="bottom-text">
-                                <a href="{{url('recipes/recipe_details')}}"><h4>Learn to cook easy italian pasta</h4></a>
+                                <a href="{{route('recipe_details')}}"><h4>Learn to cook easy italian pasta</h4></a>
                                 <div class="v-published">Published 5 March 2019</div>
                                 <div class="star">
                                     <i class="fas fa-star"></i>
@@ -757,14 +757,14 @@
                                 </div>
                             </div>
                             <div class="middle">
-                                <a href="{{url('recipes/recipe_details')}}">
+                                <a href="{{route('recipe_details')}}">
                                     <div class="play-btn"><i class="fas fa-play"></i></div>
                                 </a>
                             </div>
                         </div>
                         <div class="video-bottom">
                             <div class="bottom-text">
-                                <a href="{{url('recipes/recipe_details')}}"><h4>Learn to cook easy street food pani puri</h4></a>
+                                <a href="{{route('recipe_details')}}"><h4>Learn to cook easy street food pani puri</h4></a>
                                 <div class="v-published">Published 21 July 2019</div>
                                 <div class="star">
                                     <i class="fas fa-star"></i>
@@ -795,14 +795,14 @@
                                 </div>
                             </div>
                             <div class="middle">
-                                <a href="{{url('recipes/recipe_details')}}">
+                                <a href="{{route('recipe_details')}}">
                                     <div class="play-btn"><i class="fas fa-play"></i></div>
                                 </a>
                             </div>
                         </div>
                         <div class="video-bottom">
                             <div class="bottom-text">
-                                <a href="{{url('recipes/recipe_details')}}"><h4>Learn to cook potato french fries at home</h4></a>
+                                <a href="{{route('recipe_details')}}"><h4>Learn to cook potato french fries at home</h4></a>
                                 <div class="v-published">Published 28 March 2019</div>
                                 <div class="star">
                                     <i class="fas fa-star"></i>
@@ -833,14 +833,14 @@
                                 </div>
                             </div>
                             <div class="middle">
-                                <a href="{{url('recipes/recipe_details')}}">
+                                <a href="{{route('recipe_details')}}">
                                     <div class="play-btn"><i class="fas fa-play"></i></div>
                                 </a>
                             </div>
                         </div>
                         <div class="video-bottom">
                             <div class="bottom-text">
-                                <a href="{{url('recipes/recipe_details')}}"><h4>Learn to cook easy cheese pizza</h4></a>
+                                <a href="{{route('recipe_details')}}"><h4>Learn to cook easy cheese pizza</h4></a>
                                 <div class="v-published">Published 20 March 2019</div>
                                 <div class="star">
                                     <i class="fas fa-star"></i>

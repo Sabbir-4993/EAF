@@ -116,7 +116,7 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12">
                     <div class="copyright-text">
-                        <i class="far fa-copyright"></i>Copyright 2019 <a href="index.html">Natto</a> by Gambol. All Rights Reserved.
+                        <i class="far fa-copyright"></i>Copyright 2021 <a href="{{route('index')}}">Explore Asian Food</a> by Gambol. All Rights Reserved.
                     </div>
                 </div>
             </div>
