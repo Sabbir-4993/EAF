@@ -9,6 +9,7 @@ class DashboardController extends Controller
 {
 //    user dashboard
     public function dashboard(){
+        notify()->success('Welcome Back!');
         return view('frontend.user.dashboard');
     }
 

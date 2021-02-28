@@ -12,6 +12,7 @@
 
     <link href="{{asset('frontend/vendor/fontawesome-free/css/all.min.css')}}" rel="stylesheet" type="text/css">
     <link href="{{asset('frontend/css/bootstrap-select.css')}}" rel="stylesheet">
+    @notifyCss
 {{--    @yield('new_css')--}}
 @endsection
 
@@ -25,4 +26,6 @@
     <script src="{{asset('frontend/js/owlslider.js')}}"></script>
     <script src="{{asset('frontend/js/bootstrap-select.js')}}"></script>
 {{--    @yield('new_js')--}}
+    @notifyJs
+    <x:notify-messages />
 @endsection
