@@ -24,6 +24,7 @@ Route::get('/partner-with-us', 'FrontPagesController@partner_with_us')->name('pa
 Route::get('/partner-with-us/add_restaurant', 'FrontPagesController@add_restaurant')->name('add_restaurant');
 
 
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
@@ -31,7 +32,8 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::group([ 'as'=>'admin.', 'prefix'=>'admin', 'namespace' => 'Admin', 'middleware' => ['auth','admin'] ],
     function(){
         Route::get('dashboard', 'DashboardController@index')->name('dashboard');
-
+        Route::resource('blog/category', 'BlogCategoryController');
+        Route::resource('blog', 'BlogController');
     });
 
 Route::group([ 'as'=>'user.', 'prefix'=>'user', 'namespace' => 'User', 'middleware' => ['auth','user'] ],
