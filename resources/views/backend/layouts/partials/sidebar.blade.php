@@ -23,14 +23,14 @@
                     </a>
                     <ul class="sub-menu" aria-expanded="true">
                         <li>
-                            <a href="{{route('admin.category.index')}}" key="t-category">Category</a>
+                            <a href="#" key="t-category">Category</a>
                         </li>
                         <li>
-                            <a href="{{route('admin.blog.create')}}" key="t-blog-create">Create Blog</a>
+                            <a href="{{route('admin.blog.index')}}" key="t-blog-create">Blog List</a>
                         </li>
-                        <li>
-                            <a href="{{route('admin.blog.index')}}" key="t-blog-list">Blog List</a>
-                        </li>
+{{--                        <li>--}}
+{{--                            <a href="{{route('admin.blog.index')}}" key="t-blog-list">Blog List</a>--}}
+{{--                        </li>--}}
                     </ul>
                 </li>
 

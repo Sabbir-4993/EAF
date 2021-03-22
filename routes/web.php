@@ -22,6 +22,8 @@ Route::get('/how-to-order', 'FrontPagesController@howtoorder')->name('howtoorder
 Route::get('/partners', 'FrontPagesController@partners')->name('partners');
 Route::get('/partner-with-us', 'FrontPagesController@partner_with_us')->name('partner_with_us');
 Route::get('/partner-with-us/add_restaurant', 'FrontPagesController@add_restaurant')->name('add_restaurant');
+Route::get('/blog', 'FrontPagesController@blog')->name('blog');
+Route::get('/blog/details', 'FrontPagesController@blog_details')->name('blog.details');
 
 
 
@@ -32,8 +34,11 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::group([ 'as'=>'admin.', 'prefix'=>'admin', 'namespace' => 'Admin', 'middleware' => ['auth','admin'] ],
     function(){
         Route::get('dashboard', 'DashboardController@index')->name('dashboard');
-        Route::resource('blog/category', 'BlogCategoryController');
-        Route::resource('blog', 'BlogController');
+    });
+
+Route::group([ 'as'=>'admin.', 'prefix'=>'admin', 'middleware' => ['auth','admin'] ],
+    function(){
+        Route::resource('/blog', 'BlogController');
     });
 
 Route::group([ 'as'=>'user.', 'prefix'=>'user', 'namespace' => 'User', 'middleware' => ['auth','user'] ],

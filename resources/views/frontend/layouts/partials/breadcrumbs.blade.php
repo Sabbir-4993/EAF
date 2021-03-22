@@ -153,6 +153,51 @@
     </section>
 @endsection
 
+@section('blog')
+    <section class="title-bar">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="left-title-text">
+                        <h3>Blog & News</h3>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="right-title-text">
+                        <ul>
+                            <li class="breadcrumb-item"><a href="{{route('index')}}">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Blog & News</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+@endsection
+
+@section('blog_details')
+    <section class="title-bar">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="left-title-text">
+                        <h3>Blog Detail View</h3>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="right-title-text">
+                        <ul>
+                            <li class="breadcrumb-item"><a href="{{route('index')}}">Home</a></li>
+                            <li class="breadcrumb-item"><a href="{{route('blog')}}">Blog</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Blog Detail View</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+@endsection
+
 
 @section('recipes')
     <section class="title-bar">

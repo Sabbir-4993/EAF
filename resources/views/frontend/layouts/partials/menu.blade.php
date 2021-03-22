@@ -5,9 +5,9 @@
                 <div class="col-md-4">
                     <div class="topbar-left text-center text-md-left">
                         <ul class="list-inline">
-                            <li> <a href="#"> Contact </a></li>
-                            <li> <a href="#"> About Us </a></li>
-                            <li> <a href="#"> Blog </a></li>
+                            <li> <a href="{{route('contact')}}"> Contact </a></li>
+                            <li> <a href="{{route('about')}}"> About Us </a></li>
+                            <li> <a href="{{route('blog')}}"> Blog </a></li>
                             <li> <a href="{{route('partner_with_us')}}"> Become a Partner </a></li>
                         </ul>
                     </div>
@@ -18,7 +18,16 @@
                             <li><a href="#"><i class="far fa-calendar-alt"></i> Table Bookings</a> </li>
                             <li><a href="#"><i class="far fa-bookmark"></i> Bookmarks <span class="badge badge-secondary"></span></a></li>
                             <li><a href="#"><i class="fas fa-shopping-cart"></i> Food Orders <span class="badge badge-secondary"></span></a></li>
-                            <li><a href="{{route('login')}}"><i class="fas fa-user-circle"></i> Login </a></li>
+                            @if(Auth::check())
+{{--                                {{Auth::user()->name}}--}}
+                                <li><a href="{{route('logout')}}" methods="POST"><i class="fas fa-sign-out-alt"></i>
+                                        {{ csrf_field() }}
+                                        Logout
+                                    </a>
+                                </li>
+                            @else
+                                <li><a href="{{route('login')}}"><i class="fas fa-user-circle"></i> Login </a></li>
+                            @endif
 {{--                            <li class="nav-item dropdown">--}}
 {{--                                <a class="dropdown-toggle-no-caret" href="{{route('login')}}" id="accountDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">--}}
 {{--                                    <i class="fas fa-user-circle"></i> Login--}}

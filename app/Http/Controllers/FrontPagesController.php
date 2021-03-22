@@ -41,4 +41,12 @@ class FrontPagesController extends Controller
     public function add_restaurant(){
         return view('frontend.pages.add_restaurant');
     }
+
+    public function blog(){
+        return view('frontend.pages.blog');
+    }
+
+    public function blog_details(){
+        return view('frontend.pages.blog_details');
+    }
 }
