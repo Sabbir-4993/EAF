@@ -38,7 +38,8 @@ Route::group([ 'as'=>'admin.', 'prefix'=>'admin', 'namespace' => 'Admin', 'middl
 
 Route::group([ 'as'=>'admin.', 'prefix'=>'admin', 'middleware' => ['auth','admin'] ],
     function(){
-        Route::resource('/blog', 'BlogController');
+        Route::get('/category', 'BlogController@category')->name('blog.category');
+        Route::get('/blog-list', 'BlogController@index')->name('blog.index');
     });
 
 Route::group([ 'as'=>'user.', 'prefix'=>'user', 'namespace' => 'User', 'middleware' => ['auth','user'] ],
